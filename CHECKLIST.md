@@ -10,9 +10,9 @@ Fill in this checklist to indicate which features your language supports. Submit
 
 **Team members (if any): x**
 
-**Your hours spent on project:**
+**Your hours spent on project: 20**
 
-**Your contribution to the project (if project completed in a team):**
+**Your contribution to the project (if project completed in a team): x**
 
 ---
 
