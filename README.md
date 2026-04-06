@@ -6,7 +6,7 @@ This document explains how to run the `my_lang` interpreter on Linux and gives a
 
 ### 1.1 Prerequisites
 
-- Linux environment
+
 - Docker installed and running
 
 Check Docker installation:
