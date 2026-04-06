@@ -1,0 +1,5 @@
+// Type errors example for booleans
+true and 1
+not 0
+if 42 then true else false
+if true then 42 else false

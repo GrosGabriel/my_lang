@@ -1,0 +1,12 @@
+// List construction
+nil [Bool]
+cons true (nil [Bool])
+cons true (cons false (nil [Bool]))
+
+// Case analysis on lists
+caselist (nil [Bool]) false (fun h : Bool -> fun t : [Bool] -> h)
+caselist (cons true (nil [Bool])) false (fun h : Bool -> fun t : [Bool] -> h)
+
+// Primitive recursion on lists (all_true)
+reclist (cons true (cons true (nil [Bool]))) true (fun h : Bool -> fun t : [Bool] -> fun ih : Bool -> if h then ih else false)
+reclist (cons true (cons false (nil [Bool]))) true (fun h : Bool -> fun t : [Bool] -> fun ih : Bool -> if h then ih else false)

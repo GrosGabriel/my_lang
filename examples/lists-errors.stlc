@@ -1,0 +1,3 @@
+// Type errors example for lists
+cons true (cons 42 (nil [Bool]))
+caselist (cons true (nil [Bool])) true (fun h : Bool -> fun t : [Bool] -> nil [Bool])

@@ -1,0 +1,6 @@
+// Recursive behavior with fix (fibonacci)
+let fib : (Int -> Int) = fix (fun self : (Int -> Int) -> fun n : Int -> if n == 0 then 0 else if n == 1 then 1 else (self (n - 1)) + (self (n - 2)))
+fib 0
+fib 6
+fib 10
+

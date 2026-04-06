@@ -1,0 +1,12 @@
+// Anonymous functions and applications
+(fun x : Int -> x + 1) 41
+
+// Function values can be declared with arrow types but must be between parenthesis
+let double : (Int -> Int) = fun x : Int -> x * 2
+double 21
+
+// Environment capture via declaration substitution
+let captured : Int = 10
+let add_captured : (Int -> Int) = fun y : Int -> captured + y // here captured is evaluated as Int(10) in the declaration of add_captured
+let captured : Int = 1
+add_captured 5

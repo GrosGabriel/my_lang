@@ -1,0 +1,25 @@
+// We can create booleans using literals
+true
+false
+
+// Basic boolean operations
+true and false
+true or false
+not false
+
+// if-then-else
+if true then 42 else 0
+if not (true and false) then true else false
+
+// Order of operations : 
+// Highest -> lowest: not > and > or > ==
+// (So: not true and false == (not true) and false)
+not true and false
+
+// and has priority over or:
+// true or false and false == true or (false and false)
+true or false and false
+
+// == has lower priority than or/and:
+// true and false == false == (true and false) == false
+true and false == false

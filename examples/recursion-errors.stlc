@@ -1,0 +1,3 @@
+// Type errors example for recursion
+fix 42
+fix (fun f : (Int -> Bool) -> fun x : Int -> x)

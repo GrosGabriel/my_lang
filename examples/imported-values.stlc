@@ -1,0 +1,3 @@
+// Imported declarations
+let imported_n : Int = 7
+let imported_is_zero : (Int -> Bool) = fun x : Int -> x == 0

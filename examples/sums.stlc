@@ -1,0 +1,10 @@
+// Sum construction
+inl true (Int)
+inr 42 (Bool)
+
+// Case analysis on sums
+casesum (inl true (Int)) (fun x : Bool -> x) (fun y : Int -> false)
+casesum (inr 42 (Bool)) (fun x : Bool -> x) (fun y : Int -> false)
+
+// Let with sums
+let s : (Bool + Int) = inl true (Int) in casesum s (fun a : Bool -> a) (fun b : Int -> false)

@@ -1,0 +1,3 @@
+// Type errors example for sums
+casesum (inl true (Int)) (fun x : Bool -> x) (fun y : Int -> 42)
+casesum (inl true (Int)) (fun x : Int -> x) (fun y : Int -> 42)

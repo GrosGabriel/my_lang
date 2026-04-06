@@ -1,0 +1,13 @@
+// We can create integers using litterals
+42
+-7
+-100
+
+// We can perfom basic arithmetic operations
+3 + 2 
+10 - 8
+10 - 15
+4 * -3
+9 / 3
+5 / 0 //Division by zero returns zero
+

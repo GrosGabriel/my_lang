@@ -1,0 +1,11 @@
+// Named declarations
+let x : Int = 5
+let y : Bool = let z : Int = 3 in x == z
+
+// Import declarations from another file
+import "examples/imported-values.stlc"
+
+// Use local + imported declarations
+x
+let n1 : Int = imported_n in n1 + 1
+let b0 : Bool = imported_is_zero 0 in b0

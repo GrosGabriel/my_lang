@@ -1,0 +1,13 @@
+// Pair construction and projections
+(1, 2)
+fst (1, 2)
+snd (true, 42)
+
+// Pair works with others types
+(1, (2,fun x : Int -> x + 1))
+let p : Int = fst (10, 20)
+p + 1
+
+
+// To declare a pair type, it must be between parenthesis
+let proj : ((Int,(Int,Int)) -> Int) = fun x : (Int, (Int , Int)) -> fst snd x in proj (1,(2,3))

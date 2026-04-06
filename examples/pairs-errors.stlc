@@ -1,0 +1,3 @@
+// Type errors example for pairs
+fst 1
+snd true

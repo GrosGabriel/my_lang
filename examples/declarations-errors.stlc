@@ -1,0 +1,3 @@
+// Incorrect declaration examples (type checker should reject)
+let bad_int : Int = true
+let bad_fun : (Int -> Int) = fun x : Int -> false
