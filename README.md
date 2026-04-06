@@ -253,7 +253,7 @@ Supported types:
 
 Notes:
 
-- Function and sum type constructors are parsed with parentheses, for example `(Int -> Int)` and `(Bool + Int)`.
+- Function, pair, and sum type constructors are parsed with parentheses, for example `(Int -> Int)`, `(Int, Int)` and `(Bool + Int)`.
 - `nil` requires an explicit element type, for example `nil [Bool]`.
 
 ### 2.3 Declarations
